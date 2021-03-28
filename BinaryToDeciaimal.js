@@ -1,5 +1,5 @@
 var age = ""
-const student = (number)=>{
+const Binary = (number)=>{
     
     if (number === 0){
         return
@@ -11,7 +11,7 @@ const student = (number)=>{
         number =Math.floor( number/2);
         age += remainder
         
-        student(number)
+        Binary(number)
         
     }
 
@@ -20,7 +20,7 @@ const student = (number)=>{
 
 }
 
-student(76540)
+Binary(76540)
 var binaryEquiv="";
 for(var i = age.length-1; i>=0; i--){
     binaryEquiv += age[i];
