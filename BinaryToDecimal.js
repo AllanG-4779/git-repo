@@ -1,4 +1,5 @@
 var binNumber = "";
+let age = 434
 const Binary = (number) => {
   if (number === 0) {
     return;
