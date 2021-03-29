@@ -1,5 +1,6 @@
 var binNumber = "";
 const age= 2323
+let ag = 434
 const Binary = (number) => {
   if (number === 0) {
     return;
@@ -19,3 +20,4 @@ for (var i = binNumber.length - 1; i >= 0; i--) {
   binaryEquiv += binNumber[i];
 }
 console.log(binaryEquiv);
+//this was done
