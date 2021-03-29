@@ -15,9 +15,6 @@ const Binary = (number)=>{
         
     }
 
-    
-     
-
 }
 
 Binary(76540)
