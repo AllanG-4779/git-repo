@@ -18,3 +18,4 @@ for (var i = binNumber.length - 1; i >= 0; i--) {
   binaryEquiv += binNumber[i];
 }
 console.log(binaryEquiv);
+//this was done
